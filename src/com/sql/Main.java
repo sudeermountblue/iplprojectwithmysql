@@ -10,12 +10,6 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.*;
 public class Main {
-    public static final int ID = 0;
-    public static final int SEASON = 1;
-    public static final int TEAM1 = 4;
-    public static final int TEAM2 = 5;
-    public static final int TOSS_WINNER = 6;
-    public static final int WINNER = 10;
     public static void main(String[] args) {
         List<Match> matches = getMatchesData();
         List<Delivery> deliveries = getDeliveriesData();
